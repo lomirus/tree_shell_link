@@ -5,7 +5,7 @@
 
 Generate shell links (Windows shortcut, i.e. `.lnk` file) from the specified directory recursively.
 
-For example, this is `C:/foo`:
+For example, this is `C:/tree_shell_link/foo`:
 
 ```
 foo
@@ -14,7 +14,7 @@ foo
     └─c
 ```
 
-Run `tree_shell_link foo bar`, then `C:/bar` will be:
+Run `cargo run -- foo bar`, then `C:/tree_shell_link/bar` will be:
 
 ```
 bar
